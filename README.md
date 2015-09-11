@@ -1,5 +1,5 @@
 # super-simple-redux
-the simplest example of redux possible
+the simplest example of [redux](http://rackt.github.io/redux/) possible
 
 ## Requirements
 
