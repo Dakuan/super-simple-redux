@@ -21,8 +21,6 @@ $ npm start
 
 <img src="http://i.imgur.com/0unhtNQ.jpg" width="100%" />
 
-thing
-
 [[Action](https://github.com/Dakuan/super-simple-redux/blob/master/src/actions.js)]-------------[[Reducer](https://github.com/Dakuan/super-simple-redux/blob/master/src/reducer.js)]
 
     |                     |
