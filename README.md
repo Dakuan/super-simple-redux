@@ -1,2 +1,14 @@
 # super-simple-redux
-the simplest implementation of redux possible
+the simplest example of redux possible
+
+## Requirements
+
+* node.js
+
+## Install
+
+`$ npm install`
+
+## Run
+
+`$ npm start`
