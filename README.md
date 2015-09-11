@@ -13,7 +13,7 @@ the simplest example of redux possible
 
 `$ npm start`
 
-## Architechture
+## Architecture
 
 <img src="http://i.imgur.com/0unhtNQ.jpg" width="100%" />
 
