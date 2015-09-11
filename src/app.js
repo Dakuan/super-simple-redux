@@ -1,7 +1,7 @@
-import React from 'react';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-import * as Actions from './actions';
+import React from "react";
+import { bindActionCreators } from "redux";
+import { connect } from "react-redux";
+import * as Actions from "./actions";
 
 const App = React.createClass({
   render() {
@@ -14,10 +14,10 @@ const App = React.createClass({
         </div>
         <p>{count}</p>
         <button className="btn btn-default" onClick={actions.increment}>
-          +
+          <i className="fa fa-plus fa-fw" />
         </button>
         <button className="btn btn-default" onClick={actions.decrement}>
-          -
+          <i className="fa fa-minus fa-fw" />
         </button>
       </div>
     );
@@ -26,7 +26,7 @@ const App = React.createClass({
 
 function mapStateToProps(state) {
   return {
-    count: state
+    count: state.count
   };
 }
 
