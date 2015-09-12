@@ -24,10 +24,4 @@ const App = React.createClass({
   }
 });
 
-function mapStateToProps(state) {
-  return {
-    count: state.count
-  };
-}
-
-export default connect(mapStateToProps)(App);
+export default connect(state => state)(App);
